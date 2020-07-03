@@ -1,0 +1,9 @@
+Note that you will need to download or create images to use to display face-up or face-down coins for the toHTML method. Create a folder directory named images in your repository to hold them.
+
+Test and demonstrate that your coin object is complete by doing the following:
+
+    Write a function called display20Flips that uses a loop to flip the coin 20 times. Each time the coin flips, display the result of each flip as a string on the page (make use of your toString() method)
+
+    Write a function called display20Images, again using a loop to flip the coin 20 times…but this time instead of displaying the result as a string, display the result of each flip as an HTML IMG element on the page (make use of your toHTML() method).
+
+Your HTML file should have nothing in the body except for your script tag. Instead of hard-coding HTML elements, create them dynamically with Javascript and append them to your HTML using document.createElement and ParentNode.append
